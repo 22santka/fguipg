@@ -1,30 +1,39 @@
 from tkinter import filedialog
-import tkinter as tk
+import tkinter as tk   
+import os
+
+isVideoFile = False
 
 def GetFileFromUser():
     filepath = filedialog.askopenfilename()
+    if filepath:
+        filename = os.path.basename(filepath)
+        
+        if filename.lower().endswith(".mp4"):
+            filepath_label.config(text="Selected video file: " + filename)
+            isVideoFile = True
+            print(isVideoFile)
+            
+        else:
+            filepath_label.config(text="ERROR: File does not have .mp4 extension type")
+            isVideoFile = False
+            print(isVideoFile)
     
-def TkinterSetup():
+def main():
     # Setup the Tkinter window
     root = tk.Tk()
     root.title("fGUIpg")
-    root.minsize(450, 100)
+    root.minsize(500, 150)
     
-    # Create a textbox to display the filepath
-    filepath_entry = tk.Entry(root, width = 50)
-    filepath_entry.pack(pady = 5)
-    
-    filepath_entry.insert(0, 'Select a file to continue')
-    filepath_entry.config(state='disabled')
+    # Create a label to display the filepath
+    global filepath_label
+    filepath_label = tk.Label(root, text="Select a .mp4 file to continue")
+    filepath_label.pack(pady=5)
     
     # Create a button to trigger the file explorer prompt
     browse_button = tk.Button(root, text = "Browse", command = GetFileFromUser)
     browse_button.pack(padx = 180, pady = 10)
-    
     root.mainloop()
-    
-def main():
-    TkinterSetup()
     
 if __name__ == "__main__":
     main()
