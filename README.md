@@ -1,5 +1,5 @@
 # fguipg
-fGUIpg is a program that adds a python GUI frontend to the otherwise cmd line based FFmpeg.
+fGUIpg is a program that adds a Tkinter based python GUI to the otherwise cmd line based FFmpeg.
 
 CREDITS: 
 - Tkinter, Guido van Rossum <guido@Python.org>, https://docs.python.org/3/library/tkinter.html
