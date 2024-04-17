@@ -7,9 +7,8 @@ CREDITS:
 - ffmpy, Copyright 2016, Andriy Yurchuk Revision 8a801925, https://ffmpy.readthedocs.io/en/latest/
 
 TO-DO (Last updated 4/12/24):
-- Apply FFmpeg to selected files using ffmpy
-- Add compression button functionality
-- FFmpeg compression options
-
+- (!!!) Apply FFmpeg to selected files using ffmpy
+- (!!!) Add compression button functionality
+- (!!) FFmpeg compression options
 - Change text label depending on selected file
 - Dark mode
