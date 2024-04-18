@@ -10,5 +10,3 @@ TO-DO (Last updated 4/12/24):
 - (!!!) Apply FFmpeg to selected files using ffmpy
 - (!!!) Add compression button functionality
 - (!!) FFmpeg compression options
-- Change text label depending on selected file
-- Dark mode
