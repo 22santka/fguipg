@@ -6,7 +6,7 @@ CREDITS:
 - FFmpeg, Fabrice Bellard; Bobby Bingham (libavfilter), & the FFmpeg team, https://ffmpeg.org/
 - ffmpy, Copyright 2016, Andriy Yurchuk Revision 8a801925, https://ffmpy.readthedocs.io/en/latest/
 
-TO-DO (Last updated 4/12/24):
+TO-DO (Last updated 4/18/24):
 - (!!!) Apply FFmpeg to selected files using ffmpy
 - (!!!) Add compression button functionality
 - (!!) FFmpeg compression options
