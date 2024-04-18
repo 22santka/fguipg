@@ -1,6 +1,6 @@
 from tkinter import filedialog
 import os
-from filefetch import SelectFile # Imported class from another file
+import filefetch # Imported file
 from maintkinterwindow import MainTkinterWindowSetup # Imported class from another file
 
 def main():
