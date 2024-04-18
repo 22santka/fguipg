@@ -16,7 +16,7 @@ class MainTkinterWindowSetup:
             filepath_label.config(text=filefetch.filepath)
         else:
             compress_button.config(state = "disabled")
-            filepath_label.config(text="")
+            filepath_label.config(text="ERROR: Non mp4 file selected")
 
     def debugPrint(self):
             print("DEBUG-INFO: filefetch.filename =", filefetch.filename)
@@ -64,7 +64,7 @@ class MainTkinterWindowSetup:
         debug_button.place(anchor = "center", relx = 0.5, rely = 0.55, height = 50, width = 100)
         
         # Create a button to optimize the video file
-        compress_button = tk.Button(app, text = "Compress", command = lambda: MainTkinterWindowSetup.MainTkinterWindowSetup.buttonUpdate(MainTkinterWindowSetup.browseButtonPressed))
+        compress_button = tk.Button(app, text = "Compress")
         compress_button.place(anchor = "center", relx = 0.5, rely = 0.85, height = 50, width = 500)
         compress_button.config(state = "disabled")
             
