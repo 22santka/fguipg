@@ -17,7 +17,7 @@ class MainTkinterWindowSetup:
             filepath_label.config(text=filefetch.filepath)
         else:
             compress_button.config(state = "disabled")
-            filepath_label.config(text="ERROR: non mp4 file selected.")
+            filepath_label.config(text="ERROR: Non mp4 file selected.")
 
     def debugPrint(self):
             print("DEBUG-INFO: filefetch.filename =", filefetch.filename)
