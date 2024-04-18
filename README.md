@@ -10,7 +10,10 @@ To update the version of FFmpeg that is used, download it from the source linked
 - ffmpy, Copyright 2016, Andriy Yurchuk Revision 8a801925, https://ffmpy.readthedocs.io/en/latest/
 
 # TO-DO (Last updated 4/18/24):
-- (3) FFmpeg compression options (User settings)
-- (3) Allow support for more video file types
-- (2) Settings top level button
-- (2) Credits top level button
+Tier 3
+- FFmpeg compression options (User settings)
+- Allow support for more video file types
+- Credits top level button
+
+Tier 2
+- Settings top level button
