@@ -1,6 +1,7 @@
 import tkinter
 import filefetch
 import tkinter as tk
+import compression
 
 class MainTkinterWindowSetup:   
     def __init__(self):
@@ -16,11 +17,14 @@ class MainTkinterWindowSetup:
             filepath_label.config(text=filefetch.filepath)
         else:
             compress_button.config(state = "disabled")
-            filepath_label.config(text="ERROR: Non mp4 file selected")
+            filepath_label.config(text="ERROR: non mp4 file selected.")
 
     def debugPrint(self):
             print("DEBUG-INFO: filefetch.filename =", filefetch.filename)
             print("DEBUG-INFO: filefetch.filepath =", filefetch.filepath)
+            
+    def compressButton(self):
+        compression.optimizeFile()
         
     def mainWindow(self):
         # Set button status to be global
@@ -64,7 +68,7 @@ class MainTkinterWindowSetup:
         debug_button.place(anchor = "center", relx = 0.5, rely = 0.55, height = 50, width = 100)
         
         # Create a button to optimize the video file
-        compress_button = tk.Button(app, text = "Compress")
+        compress_button = tk.Button(app, text = "Compress", command = lambda: MainTkinterWindowSetup.compressButton(self))
         compress_button.place(anchor = "center", relx = 0.5, rely = 0.85, height = 50, width = 500)
         compress_button.config(state = "disabled")
             
