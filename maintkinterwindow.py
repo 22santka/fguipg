@@ -33,12 +33,13 @@ class MainTkinterWindowSetup:
         global filepath_label
         global browse_button
         global compress_button
-        global toggle_button
+        global settings_button
         
         # Setup the Tkinter window
         app = tk.Tk()
         app.title("fGUIpg")
         app.minsize(650, 250)
+        app.resizable(False, False)
         
         # Title lavel
         title_label = tk.Label(app, text = "fGUIpg")
@@ -57,19 +58,19 @@ class MainTkinterWindowSetup:
 
         # Create a button to trigger the file explorer prompt
         browse_button = tk.Button(app, text = "Browse", command = lambda: MainTkinterWindowSetup.browseButton(self))
-        browse_button.place(anchor = "center", relx = 0.25, rely = 0.55, height = 50, width = 100)
+        browse_button.place(anchor = "center", relx = 0.25, rely = 0.55, height = 50, width = 150)
         
-        # Create a button to change between dark mode and lightmode
-        toggle_button = tk.Button(app, text = "Placeholder")
-        toggle_button.place(anchor = "center", relx = 0.75, rely = 0.55, height = 50, width = 100)
+        # Create a button to view credits
+        settings_button = tk.Button(app, text = "Settings")
+        settings_button.place(anchor = "center", relx = 0.5, rely = 0.55, height = 50, width = 150)
         
-        # Create a button to print debugging info
-        debug_button = tk.Button(app, text = "Debug print", command = lambda: MainTkinterWindowSetup.debugPrint(self))
-        debug_button.place(anchor = "center", relx = 0.5, rely = 0.55, height = 50, width = 100)
+        # Create a button to change settings
+        credits_button = tk.Button(app, text = "Credits")
+        credits_button.place(anchor = "center", relx = 0.75, rely = 0.55, height = 50, width = 150)
         
         # Create a button to optimize the video file
         compress_button = tk.Button(app, text = "Compress", command = lambda: MainTkinterWindowSetup.compressButton(self))
-        compress_button.place(anchor = "center", relx = 0.5, rely = 0.85, height = 50, width = 500)
+        compress_button.place(anchor = "center", relx = 0.5, rely = 0.825, height = 50, width = 475)
         compress_button.config(state = "disabled")
             
         app.mainloop()     
