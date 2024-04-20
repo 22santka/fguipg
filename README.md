@@ -13,9 +13,10 @@ There is no need to run the requirements check file a second time to use the pro
 # To-do list (As of 4/19/24):
 Tier 1
 - [x] Fix crashes for fresh installs
-- [ ] Organize files in the project, since the explorer is a bit cluttered currently 
+- [ ] Improve the default compression done on video files
 - [ ] Check and download program requirements automatically on startup
 - [ ] Allow support for more video file types
+- [ ] Update GUI when a file is being compressed, to avoid confusion when things may freeze
 
 Tier 2
 - [ ] Compile program as an .exe file
@@ -23,6 +24,7 @@ Tier 2
 - [ ] Built in credits (As a top level element)
 
 Tier 3
+- [ ] Organize files in the project, since the explorer is a bit cluttered currently 
 - [ ] Dark mode <br />
 
 # Credits
