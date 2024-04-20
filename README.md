@@ -15,8 +15,9 @@ Tier 1
 - [x] Fix crashes for fresh installs
 - [ ] Improve the default compression done on video files
 - [ ] Check and download program requirements automatically on startup
-- [ ] Allow support for more video file types
 - [ ] Update GUI when a file is being compressed, to avoid confusion when things may freeze
+- [ ] Allow support for more video file types
+- [ ] Allow user to change the output file type
 
 Tier 2
 - [ ] Compile program as an .exe file
