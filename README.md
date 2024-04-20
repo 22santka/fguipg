@@ -12,6 +12,7 @@ To update the version of FFmpeg that is used, download it from the source linked
 
 # TO-DO (Last updated 4/18/24):
 Tier 3
+- Fix crashes for fresh installs
 - FFmpeg compression options (User settings)
 - Allow support for more video file types
 - Credits top level button

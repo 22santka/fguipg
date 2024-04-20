@@ -1,7 +1,7 @@
 import tkinter
-import filefetch
 import tkinter as tk
-import compression
+import compression # Imported file
+import filefetch # Imported file
 
 class MainTkinterWindowSetup:   
     def __init__(self):
