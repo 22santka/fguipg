@@ -13,7 +13,6 @@ To update the version of FFmpeg that is used, download it from the source linked
 Tier 1
 - [x] Fix crashes for fresh installs
 - [x] Check and download program requirements automatically on startup
-- [ ] Support for more video file types, beyond just ".mp4"
 - [ ] Allow support for more video file types
 
 Tier 2
