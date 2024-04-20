@@ -10,8 +10,7 @@ pip install -r requirements.txt
 > This will download the package "ffmpy 0.3.2"
 
 ## Additional info
-To update the version of FFmpeg that is used, download it from the source linked in the credits and replace the FFmpeg.exe file included in the program.
-<br />
+To update the version of FFmpeg that is used, download it from the source linked in the credits and replace the FFmpeg.exe file included in the program. <br />
 
 # To-do list (Last updated 4/19/24):
 Tier 1
@@ -26,9 +25,7 @@ Tier 2
 - [ ] Built in credits (As a top level element)
 
 Tier 3
-- [ ] Dark mode
-
-<br />
+- [ ] Dark mode <br />
 # Credits
 - Tkinter, Guido van Rossum <guido@Python.org>, https://docs.python.org/3/library/tkinter.html
 - FFmpeg, Fabrice Bellard; Bobby Bingham (libavfilter), & the FFmpeg team, https://ffmpeg.org/
