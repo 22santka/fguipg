@@ -12,7 +12,7 @@ pip install -r requirements.txt
 ## Additional info
 To update the version of FFmpeg that is used, download it from the source linked in the credits and replace the FFmpeg.exe file included in the program. <br />
 
-# To-do list (Last updated 4/19/24):
+# To-do list (As of 4/19/24):
 Tier 1
 - [x] Fix crashes for fresh installs
 - [ ] Support for more video file types, beyond just ".mp4"
