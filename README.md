@@ -3,28 +3,29 @@ fGUIpg is a program that adds a Tkinter based Python 3.0 GUI to the otherwise cm
 
 ## Usage
 > [!IMPORTANT]
-> To use the program, please firstly download the required packages for the usage of the program via the following command in your terminal:
-
+> To use the program, please firstly download the required packages via the following command in your terminal:
 ```python
 pip install -r requirements.txt
 ```
-> This will download the package "ffmpy 0.3.2", a requirement for the program to function.
-
+> This will download the package "ffmpy 0.3.2"
 
 ### Additional info
 To update the version of FFmpeg that is used, download it from the source linked in the credits and replace the FFmpeg.exe file included in the program.
 
-# To-do list (Last updated 4/18/24):
+# To-do list (Last updated 4/19/24):
 Tier 1
-- [ ] Fix crashes for fresh installs
-- [ ] Include requirements within the program, without the use of a terminal
-- [ ] FFmpeg compression options (User settings)
+- [x] Fix crashes for fresh installs
+- [ ] Support for more video file types, beyond just ".mp4"
 - [ ] Allow support for more video file types
-- [ ] Credits top level button
 
 Tier 2
-- [ ] Settings top level button
-- [ ] Compile as an .exe file
+- [ ] Include requirements within the program, without the use of a terminal
+- [ ] Compile program as an .exe file
+- [ ] Compression options (User settings as top level element)
+- [ ] Built in credits (As a top level element)
+
+Tier 3
+- [ ] Dark mode
 
 # Credits
 - Tkinter, Guido van Rossum <guido@Python.org>, https://docs.python.org/3/library/tkinter.html
