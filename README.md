@@ -12,11 +12,11 @@ To update the version of FFmpeg that is used, download it from the source linked
 # To-do list (As of 4/19/24):
 Tier 1
 - [x] Fix crashes for fresh installs
+- [x] Check and download program requirements automatically on startup
 - [ ] Support for more video file types, beyond just ".mp4"
 - [ ] Allow support for more video file types
 
 Tier 2
-- [x] Check and download program requirements automatically on startup
 - [ ] Compile program as an .exe file
 - [ ] Compression options (User settings as top level element)
 - [ ] Built in credits (As a top level element)
