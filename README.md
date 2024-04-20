@@ -2,8 +2,7 @@
 fGUIpg is a program that adds a Tkinter based Python 3.0 GUI to the otherwise cmd line based FFmpeg. 
 
 ## Usage
-> [!IMPORTANT]
-> To use the program, please firstly download the required packages for the usage of the program via the following command in your terminal:
+To use the program, please firstly download the required packages for the usage of the program via the following command in your terminal:
 
 ```python
 pip install -r requirements.txt
