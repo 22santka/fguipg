@@ -26,6 +26,7 @@ Tier 2
 
 Tier 3
 - [ ] Dark mode <br />
+
 # Credits
 - Tkinter, Guido van Rossum <guido@Python.org>, https://docs.python.org/3/library/tkinter.html
 - FFmpeg, Fabrice Bellard; Bobby Bingham (libavfilter), & the FFmpeg team, https://ffmpeg.org/
