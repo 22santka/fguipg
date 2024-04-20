@@ -10,7 +10,7 @@ The purpose of this program is to add a quick, user friendly way to compress and
 After the requirements have been downloaded, the program may be run directly from the "main.py" file.
 There is no need to run the requirements check file a second time to use the program.
 
-# To-do list (As of 4/19/24):
+# To-do list (As of 4/20/24):
 Tier 1
 - [x] Fix crashes for fresh installs
 - [ ] Improve the default compression done on video files
