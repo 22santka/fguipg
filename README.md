@@ -4,14 +4,14 @@ The purpose of this program is to add a quick, user friendly way to compress and
 
 ## Usage
 > [!WARNING]
-> On first startup, please launch the `requirementsdownload.py` file to download any of the nessecary packages required.
+> On first startup, please launch the `requirementsdownload.py` file to download any of the nessecary packages required. <br />
 > The packages will be automatically downloaded to your DEFAULT python pip path. Please keep this in mind.
 
 After the requirements have been downloaded, the program may be run directly from the "main.py" file.
 There is no need to run the requirements check file a second time to use the program.
 
-## Additional info
-To update the version of FFmpeg that is used, download it from the source linked in the credits and replace the FFmpeg.exe file included in the program. <br />
+> [!NOTE]
+> To update the version of FFmpeg that is used, download it from the source linked in the credits and replace the FFmpeg.exe file included in the program. <br />
 
 # To-do list (As of 4/19/24):
 Tier 1
