@@ -9,7 +9,7 @@ pip install -r requirements.txt
 ```
 > This will download the package "ffmpy 0.3.2"
 
-### Additional info
+## Additional info
 To update the version of FFmpeg that is used, download it from the source linked in the credits and replace the FFmpeg.exe file included in the program.
 
 # To-do list (Last updated 4/19/24):
