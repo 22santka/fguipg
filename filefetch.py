@@ -7,4 +7,4 @@ def doFileSelect():
 
     if filepath:
         global filename
-        filename = os.path.basename(filepath)
+        filename = os.path.basename(filepath) 

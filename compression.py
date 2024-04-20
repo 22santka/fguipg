@@ -26,4 +26,4 @@ def optimizeFile():
             print("Please select a location and file name to save the compressed video.")
 
 if __name__ == "__main__":
-    optimizeFile()
+    optimizeFile() 

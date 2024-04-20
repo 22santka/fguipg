@@ -4,4 +4,4 @@ def main():
     MainTkinterWindowSetup.mainWindow(MainTkinterWindowSetup)
 
 if __name__ == "__main__":
-    main()
+    main() 

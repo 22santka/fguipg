@@ -73,4 +73,4 @@ class MainTkinterWindowSetup:
         compress_button.place(anchor = "center", relx = 0.5, rely = 0.825, height = 50, width = 475)
         compress_button.config(state = "disabled")
             
-        app.mainloop()     
+        app.mainloop()    

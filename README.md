@@ -31,4 +31,4 @@ Tier 3
 # Credits
 - Tkinter, Guido van Rossum <guido@Python.org>, https://docs.python.org/3/library/tkinter.html
 - FFmpeg, Fabrice Bellard; Bobby Bingham (libavfilter), & the FFmpeg team, https://ffmpeg.org/
-- ffmpy, Copyright 2016, Andriy Yurchuk Revision 8a801925, https://ffmpy.readthedocs.io/en/latest/
+- ffmpy, Copyright 2016, Andriy Yurchuk Revision 8a801925, https://ffmpy.readthedocs.io/en/latest/ 
