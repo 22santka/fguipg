@@ -16,6 +16,7 @@ To update the version of FFmpeg that is used, download it from the source linked
 # To-do list (As of 4/19/24):
 Tier 1
 - [x] Fix crashes for fresh installs
+- [ ] Organize files in the project, since the explorer is a bit cluttered currently 
 - [ ] Check and download program requirements automatically on startup
 - [ ] Allow support for more video file types
 
