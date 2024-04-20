@@ -3,8 +3,11 @@ fGUIpg is a program that adds a Tkinter based Python 3.0 GUI to the otherwise cm
 The purpose of this program is to add a quick, user friendly way to compress and lower the size of video files.
 
 ## Usage
-> [!IMPORTANT]
-> To use the program, please run it directly from the "main.py" file. Nothing else is required! <br />
+> [!WARNING]
+> On first startup, please launch the "requirementsdownload.py" file to download any of the nessecary packages required.
+
+After the requirements have been downloaded, the program may be run directly from the "main.py" file.
+There is no need to run the requirements check file a second time to use the program.
 
 ## Additional info
 To update the version of FFmpeg that is used, download it from the source linked in the credits and replace the FFmpeg.exe file included in the program. <br />
@@ -12,7 +15,7 @@ To update the version of FFmpeg that is used, download it from the source linked
 # To-do list (As of 4/19/24):
 Tier 1
 - [x] Fix crashes for fresh installs
-- [x] Check and download program requirements automatically on startup
+- [ ] Check and download program requirements automatically on startup
 - [ ] Allow support for more video file types
 
 Tier 2
