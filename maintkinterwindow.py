@@ -24,6 +24,8 @@ class MainTkinterWindowSetup:
             print("DEBUG-INFO: filefetch.filepath =", filefetch.filepath)
             
     def compressButton(self):
+        print("Optimizing file:", filefetch.filename)
+        print("Please wait a moment.")
         compression.optimizeFile()
         
     def mainWindow(self):
